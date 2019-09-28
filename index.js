@@ -2,4 +2,7 @@ function zarb(x, y) {
     return x * y;
 }
 
-console.log(zarb(2, 3));
+function tavan(a, b) {
+    return a ** b;
+}
+console.log(tavan(2, 3));
