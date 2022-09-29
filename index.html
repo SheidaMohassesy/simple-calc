@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet" />
+    <script src="./simple-calc.js"></script>
+    <title>Simple Calculator</title>
+
+</head>
+<body>
+    <form id="calc-form">
+        <div class="input-container">
+            <label>N1</label>
+            <input type="number" id="num1" />
+        </div>
+        <div class="input-container">
+            <label>N2</label>
+            <input type="number" id="num2" value="" />
+        </div>
+        <div class="input-container">
+            <label>Result</label>
+            <input type="number" id="result" readonly/>
+            </div>
+        <div class="button-container">
+            <div class="space"></div>
+            <button class="button" type="button" onclick="addition()">+</button>
+            <button class="button" type="button" onclick="subtraction()">-</button>
+            <button class="button" type="button" onclick="multiplication()">x</button>
+            <button class="button" type="button" onclick="division()">/</button>
+            <input  class="button" type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>

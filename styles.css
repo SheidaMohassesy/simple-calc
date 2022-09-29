@@ -1,0 +1,61 @@
+body {
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height:100%;
+    width:100%;
+}
+#calc-form {
+    border: 2px solid red;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    flex-direction: column;
+    min-width: 340px;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 20px;
+}
+.input-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin-bottom : 5px;
+
+}
+.input-container input {
+    border: 2px solid rgb(223, 165, 165);
+    border-radius: 5px;
+    flex: 1;
+    height: 30px;
+}
+.input-container label {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: end;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    max-width: 100px;
+    padding-right: 5px;
+
+}
+.button-container {
+    display: flex;
+    cursor: default;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+}
+.space {
+    flex:2;
+}
+.button {
+    flex: 1;
+    margin-left: 5px;
+}
